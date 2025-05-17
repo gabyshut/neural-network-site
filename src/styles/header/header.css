@@ -1,0 +1,8 @@
+.header {
+    background-color: #B7B9E4;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 60px;
+    font-size: 14px;
+  }
