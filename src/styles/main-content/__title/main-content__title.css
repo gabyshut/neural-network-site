@@ -1,0 +1,10 @@
+.main-content__title{
+    text-transform: uppercase;
+    font-size: clamp(3.125rem, 2.4107rem + 3.5714vw, 5.625rem);
+    position: relative;
+    font-weight: 700;
+    max-inline-size: 666px;
+    margin-inline: auto;
+    text-align: center;
+    line-height: normal;
+}

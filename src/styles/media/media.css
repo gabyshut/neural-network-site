@@ -1,0 +1,20 @@
+.media {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.media img,
+.media video,
+.media audio {
+  max-width: 100%;
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.media audio {
+  width: auto;
+}

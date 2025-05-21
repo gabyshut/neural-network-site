@@ -1,0 +1,21 @@
+.main-content{
+    margin-block-start: 52px;
+}
+
+  .main-content h1::after {
+    background-color: #3b3b66;
+    border-radius: 10px;
+    content: "";
+    display: block;
+    height: 8px;
+    margin: 69px auto 0;
+    width: 355px;
+  }
+
+  @media (max-width: 355px){
+  .main-content h1::after{
+    width: 100%;
+    border-radius: 0;
+  }
+}
+  

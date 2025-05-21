@@ -1,0 +1,20 @@
+@import url('../styles/article-page/article-page.css');
+@import url('../styles/article-page/__content/article-page__content.css');
+@import url('../styles/normalize.css');
+@import url('../fonts/fonts.css');
+@import url('../styles/article-page/__title/article-page__title.css');
+@import url('../styles/page/page.css');
+@import url('../styles/title/title.css');
+@import url('../styles/article-page/__description/article-page__description.css');
+@import url('../styles/article-page/__link/article-page__link.css');
+@import url('../styles/media/media.css');
+
+:root {
+  --color-primary: #E5E5F0;
+}
+  
+  body {
+    background-color: var(--color-primary);
+    color: #000000;
+    font-family: 'JetBrainsMono';
+  }

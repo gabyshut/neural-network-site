@@ -1,0 +1,12 @@
+.header__subtitle{
+    color: #1F188B;
+    font-weight: 400;
+    font-size: clamp(0.625rem, 0.4464rem + 0.8929vw, 1.25rem);
+    align-self: start;
+}
+
+@media (max-width: 620px){
+    .header__subtitle {
+        align-self: center;
+    }
+}

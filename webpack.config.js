@@ -3,14 +3,16 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
+const webpack = require('webpack');
 
 module.exports = {
   entry: {
-    main: './src/index.js'
+    main: './src/index.js',
+    article: './src/article.js',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'main.js',
+    filename: '[name].js',
     publicPath: '',
   },
   mode: 'development',
@@ -20,17 +22,18 @@ module.exports = {
         directory: path.resolve(__dirname, 'dist'), // основная сборка
       },
       {
-        directory: path.resolve(__dirname, 'articles'), // статьи
-        publicPath: '/articles',
+        directory: path.resolve(__dirname, 'data'), // данные
+        publicPath: '/data',
       },
       {
         directory: path.resolve(__dirname, 'media'), // медиа
         publicPath: '/media',
-      }
+      },
     ],
     open: true,
     compress: true,
-    port: 8080
+    port: 8080,
+    hot: true,
   }
   ,
   module: {
@@ -58,17 +61,23 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html'
+      template: './src/index.html',
+      filename: 'index.html',
+      chunks: ['main'], // подключает только main.js
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
     new CopyPlugin({
       patterns: [
-        { from: 'articles', to: 'articles' },
+        { from: 'data', to: 'data' },
         { from: 'media', to: 'media' }
       ]
     }),
-
+    new HtmlWebpackPlugin({
+      filename: 'article.html',
+      template: './src/article.html',
+      chunks: ['article'] 
+    })
 
   ]
 }
