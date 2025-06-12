@@ -10,10 +10,11 @@
       <h2 class="header__subtitle title">Цифровой справочник</h2>
       <h2 class="header__title title">Нейросети</h2>
       <button class="header__button"></button>
-      <div class="header__menu">
-        <button class="close-button">&times;</button>
-        <a class="header__link">Статья</a>
-        <a class="header__link" href="#glossary">Глоссарий</a>
+      <div class="overlay menu-overlay hidden">
+        <div class="header__menu">
+          <button class="close-button">&times;</button>
+          <a class="header__link" href="#glossary">Глоссарий</a>
+        </div>
       </div>
     </header>
     <main class="main-content">
@@ -21,7 +22,7 @@
       <section class="articles">
         <ul class="articles__list"></ul>
       </section>
-      <section class="glossary" name="glossary">
+      <section class="glossary" id="glossary">
         <h2 class="glossary__title title">Глоссарий</h2>
         <ul class="glossary__terms-list"></ul>
       </section>
@@ -30,7 +31,7 @@
       <p>Санкт-Петербург</p>
       <p>2025</p>
     </footer>
-    <div class="popup-overlay hidden">
+    <div class="overlay popup-overlay hidden">
       <div class="popup">
         <button class="close-button">&times;</button>
         <h2 class="popup__term">Термин</h2>

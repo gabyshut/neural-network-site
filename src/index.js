@@ -37,12 +37,21 @@ const cardElementTemplate = document.querySelector(".card-template");
 async function renderArticles() {
   const articles = await getData("/data/articles.json");
   const listContainer = document.querySelector(".articles__list");
+  const menuContainer = document.querySelector(".header__menu");
 
   articles.forEach((article) => {
     const card = createCard(cardElementTemplate, article);
     listContainer.appendChild(card);
+
+    // Добавляем ссылку в меню
+    const link = document.createElement("a");
+    link.classList.add("header__link");
+    link.textContent = article.name;
+    link.href = `article.html?name=${encodeURIComponent(article.name)}`;
+    menuContainer.appendChild(link);
   });
 }
+
 
 renderArticles();
 
@@ -65,7 +74,9 @@ getData("/data/glossary.json")
     console.error(err);
   });
 
-const popupOverlay = document.querySelector(".popup-overlay");
+const overlay = document.querySelector('.overlay');
+const popupOverlay = document.querySelector('.popup-overlay');
+const menuOverlay = document.querySelector('.menu-overlay');
 const popupTerm = document.querySelector(".popup__term");
 const popupDefinition = document.querySelector(".popup__definition");
 
@@ -76,24 +87,47 @@ function openPopup(term, definition) {
   popupOverlay.classList.remove("hidden");
 }
 
-// Закрыть попап
+// Закрыть меню и попап
+function closeOverlay() {
+  menuOverlay.classList.add("hidden");
+  popupOverlay.classList.add("hidden");
+  menu.classList.remove("header__menu_active");
+  document.body.classList.remove("menu-open");
+}
+
 const closeButtons = document.querySelectorAll(".close-button");
+
+// Кнопки закрытия
 closeButtons.forEach((btn) => {
   btn.addEventListener("click", () => {
-    popupOverlay.classList.add("hidden");
-    document.querySelector(".header__menu")?.classList.remove("header__menu_active");
+    closeOverlay();
   });
 });
 
-// (опционально) закрыть по клику на затемнение
+// Закрытие по клику на оверлей
 popupOverlay.addEventListener("click", (e) => {
   if (e.target === popupOverlay) {
-    popupOverlay.classList.add("hidden");
+    closeOverlay();
+  }
+});
+
+menuOverlay.addEventListener("click", (e) => {
+  if (e.target === menuOverlay) {
+    closeOverlay();
   }
 });
 
 
+const menu = document.querySelector('.header__menu')
 const headerButton = document.querySelector('.header__button');
-headerButton.addEventListener('click', (evt) => {
-    document.querySelector('.header__menu').classList.add('header__menu_active');
-})
+headerButton.addEventListener("click", () => {
+  menu.classList.add("header__menu_active");
+  menuOverlay.classList.remove("hidden");
+  document.body.classList.add("menu-open");
+});
+
+document.querySelectorAll('.header__link[href^="#"]').forEach(link => {
+  link.addEventListener('click', () => {
+    closeOverlay();
+  });
+});

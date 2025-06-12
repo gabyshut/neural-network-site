@@ -3,7 +3,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
-const webpack = require('webpack');
 
 module.exports = {
   entry: {
@@ -63,7 +62,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: 'index.html',
-      chunks: ['main'], // подключает только main.js
+      chunks: ['main'],
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
