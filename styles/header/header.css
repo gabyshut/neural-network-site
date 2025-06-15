@@ -1,0 +1,16 @@
+.header {
+    background-color: #b7b9e4;
+    display: grid;
+    font-size: 14px;
+    padding: 17px 60px;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+
+  @media (max-width: 620px){
+    .header{
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      padding: 5px 20px;
+    }
+  }

@@ -1,0 +1,7 @@
+  .glossary__title {
+    font-size: clamp(2.5rem, 2.0714rem + 2.1429vw, 4rem);
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+  }

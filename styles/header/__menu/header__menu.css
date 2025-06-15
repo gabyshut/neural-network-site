@@ -1,0 +1,12 @@
+.header__menu {
+    position: fixed; /* вместо absolute */
+    top: 0;
+    right: -100vw; /* полностью за экран */
+    background-color: #E7E6F3;
+    height: 100vh;
+    width: 33vw;
+    z-index: 1000;
+    font-size: 27px;
+    padding: 40px;
+    transition: right 0.3s ease; /* плавное появление */
+}

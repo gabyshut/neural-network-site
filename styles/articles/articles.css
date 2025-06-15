@@ -1,0 +1,9 @@
+.articles {
+    margin: 73px 40px 0;
+}
+
+@media (max-width: 768px) {
+    .articles {
+        margin-inline: 20px;
+    }
+}
