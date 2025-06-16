@@ -12,12 +12,12 @@
             },
             {
                 "type":"image",
-                "src": "yalm2screenshot1.jpeg",
+                "src": "media/yalm2screenshot1.jpeg",
                 "alt": "Пример диалога с Алисой."
             },
             {
                 "type":"image",
-                "src": "yalm2screenshot2.png",
+                "src": "media/yalm2screenshot2.png",
                 "alt": "Пример диалога с Алисой через веб-браузер."
             }
         ]
@@ -31,26 +31,26 @@
             {
                 "type": "iframe",
                 "src": "https://vkvideo.ru/video_ext.php?oid=-223796864&id=456239030&hd=2&autoplay=0",
-                "alt": "Обзор GigaChat"
+                "title": "Обзор GigaChat"
             },
             {
                 "type": "image",
-                "src": "sberGPTscreenshot1.png",
+                "src": "media/sberGPTscreenshot1.png",
                 "alt": "Главная страница."
             },
                         {
                 "type": "image",
-                "src": "sberGPTscreenshot2.png",
+                "src": "media/sberGPTscreenshot2.png",
                 "alt": "Функции инструменты SberGPT."
             },
                         {
                 "type": "image",
-                "src": "sberGPTscreenshot3.png",
+                "src": "media/sberGPTscreenshot3.png",
                 "alt": "Голосовая функция в SberGPT."
             },
                         {
                 "type": "image",
-                "src": "sberGPTscreenshot4.png",
+                "src": "media/sberGPTscreenshot4.png",
                 "alt": "Открытка с помощью нейросети SberGPT."
             }
         ]
@@ -63,12 +63,12 @@
         "media": [
             {
                 "type": "image",
-                "src": "neuronetScreenshot1.png",
+                "src": "media/neuronetScreenshot1.png",
                 "alt": "Главная страница."
             },
             {
                 "type": "image",
-                "src": "neuronetScreenshot2.png",
+                "src": "media/neuronetScreenshot2.png",
                 "alt": "Продукты Neuronet."
             }
         ]
@@ -86,17 +86,17 @@
             },
             {
                 "type": "image",
-                "src": "chatGPTscreenshot1.jpg",
+                "src": "media/chatGPTscreenshot1.jpg",
                 "alt": "Функции ChatGPT."
             },
                         {
                 "type": "image",
-                "src": "chatGPTscreenshot2.png",
+                "src": "media/chatGPTscreenshot2.png",
                 "alt": "Пример диалога с ChatGPT."
             },
                         {
                 "type": "image",
-                "src": "chatGPTscreenshot3.png",
+                "src": "media/chatGPTscreenshot3.png",
                 "alt": "Функции ChatGPT."
             }
         ]
@@ -114,7 +114,7 @@
             },
             {
                 "type": "image",
-                "src": "claude3screenshot1.png",
+                "src": "media/claude3screenshot1.png",
                 "alt": "Главная страница."
             }
         ]
@@ -132,22 +132,22 @@
             },
             {
                 "type": "image",
-                "src": "geminiScreenshot1.png",
+                "src": "media/geminiScreenshot1.png",
                 "alt": "Промо интерфейса."
             },
             {
                 "type": "image",
-                "src": "geminiScreenshot2.png",
+                "src": "media/geminiScreenshot2.png",
                 "alt": "Промо интерфейса."
             },
             {
                 "type": "image",
-                "src": "geminiScreenshot3.png",
+                "src": "media/geminiScreenshot3.png",
                 "alt": "Промо интерфейса."
             },
             {
                 "type": "image",
-                "src": "geminiScreenshot4.jpg",
+                "src": "media/geminiScreenshot4.jpg",
                 "alt": "Эффективность Gemini по сравнению с другими нейросетями."
             }
         ]
@@ -161,11 +161,11 @@
             {
                 "type": "iframe",
                 "src": "https://vkvideo.ru/video_ext.php?oid=-48265019&id=456242740&hd=2&autoplay=0",
-                "alt": "Обзор Mistral"
+                "title": "Обзор Mistral"
             },
             {
                 "type": "image",
-                "src": "mistralScreenshot1.jpg",
+                "src": "media/mistralScreenshot1.jpg",
                 "alt": "Эффективность Mistral по сравнению с другими нейросетями."
             }
         ]
@@ -179,7 +179,7 @@
             {
                 "type": "iframe",
                 "src": "https://vkvideo.ru/video_ext.php?oid=-226922990&id=456239063&hd=2&autoplay=0",
-                "alt": "Гайд, как установить LLaMA 3"
+                "title": "Гайд, как установить LLaMA 3"
             }
         ]
     },
@@ -196,17 +196,17 @@
             },
             {
                 "type": "image",
-                "src": "dalleScreenshot1.png",
+                "src": "media/dalleScreenshot1.png",
                 "alt": "Сравнение примеров работ нейросетей."
             },
             {
                 "type": "image",
-                "src": "dalleScreenshot2.jpeg",
+                "src": "media/dalleScreenshot2.jpeg",
                 "alt": "Сравнение примеров работ нейросетей."
             },
             {
                 "type": "image",
-                "src": "dalleScreenshot3.png",
+                "src": "media/dalleScreenshot3.png",
                 "alt": "Главная страница."
             }
         ]
@@ -224,22 +224,22 @@
             },
             {
                 "type": "image",
-                "src": "midjourneyScreenshot1.jpg",
+                "src": "media/midjourneyScreenshot1.jpg",
                 "alt": "Примеры работы нейросети. Сгенерированные изображения."
             },
             {
                 "type": "image",
-                "src": "midjourneyScreenshot2.jpg",
+                "src": "media/midjourneyScreenshot2.jpg",
                 "alt": "Подборка сгенерированных изображений на странице Midjourney."
             },
             {
                 "type": "image",
-                "src": "midjourneyScreenshot3.png",
+                "src": "media/midjourneyScreenshot3.png",
                 "alt": "Подборка сгенерированных изображений на странице Midjourney."
             },
             {
                 "type": "image",
-                "src": "midjourneyScreenshot4.png",
+                "src": "media/midjourneyScreenshot4.png",
                 "alt": "Сравнение версий нейросети по примерам работ."
             }
         ]
@@ -257,17 +257,17 @@
             },
             {
                 "type": "image",
-                "src": "SDscreenshot1.png",
+                "src": "media/SDscreenshot1.png",
                 "alt": "Сравнение примеров работ нейросетей."
             },
             {
                 "type": "image",
-                "src": "SDscreenshot2.png",
+                "src": "media/SDscreenshot2.png",
                 "alt": "Экран настройки промпта."
             },
             {
                 "type": "image",
-                "src": "SDscreenshot3.png",
+                "src": "media/SDscreenshot3.png",
                 "alt": "Архитектура нейросети."
             }
         ]

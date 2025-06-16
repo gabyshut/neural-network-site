@@ -1,4 +1,9 @@
 .header__link{
     display: block;
     margin-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 7px 10px;
 }

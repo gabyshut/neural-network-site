@@ -1,7 +1,13 @@
 .page {
     background-color: #fff;
-    margin: 0 223px;
+    margin: 0 15vw;
     padding: 30px 60px;
     min-height: 100vh;
     max-height: 100%;
+}
+
+@media (max-width: 600px){
+    .page{
+        margin: 0;
+    }
 }

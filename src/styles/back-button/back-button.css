@@ -1,3 +1,7 @@
 .back-button {
-    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--color-primary);
+    border-radius: 15px;
+    padding: 7px 10px;
 }

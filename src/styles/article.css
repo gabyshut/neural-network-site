@@ -8,6 +8,8 @@
 @import url('../styles/article-page/__description/article-page__description.css');
 @import url('../styles/article-page/__link/article-page__link.css');
 @import url('../styles/media/media.css');
+@import url('../styles/article-page/__text/article-page__text.css');
+@import url('../styles/back-button/back-button.css');
 
 :root {
   --color-primary: #E5E5F0;
