@@ -12,8 +12,13 @@
             },
             {
                 "type":"image",
-                "src": "",
-                "alt": ""
+                "src": "yalm2screenshot1.jpeg",
+                "alt": "Пример диалога с Алисой."
+            },
+            {
+                "type":"image",
+                "src": "yalm2screenshot2.png",
+                "alt": "Пример диалога с Алисой через веб-браузер."
             }
         ]
     },
@@ -27,6 +32,26 @@
                 "type": "iframe",
                 "src": "https://vkvideo.ru/video_ext.php?oid=-223796864&id=456239030&hd=2&autoplay=0",
                 "alt": "Обзор GigaChat"
+            },
+            {
+                "type": "image",
+                "src": "sberGPTscreenshot1.png",
+                "alt": "Главная страница."
+            },
+                        {
+                "type": "image",
+                "src": "sberGPTscreenshot2.png",
+                "alt": "Функции инструменты SberGPT."
+            },
+                        {
+                "type": "image",
+                "src": "sberGPTscreenshot3.png",
+                "alt": "Голосовая функция в SberGPT."
+            },
+                        {
+                "type": "image",
+                "src": "sberGPTscreenshot4.png",
+                "alt": "Открытка с помощью нейросети SberGPT."
             }
         ]
     },
@@ -38,8 +63,13 @@
         "media": [
             {
                 "type": "image",
-                "src": "/media/nRDcZ_AQDhc.jpg",
-                "alt": "Тестовая картинка"
+                "src": "neuronetScreenshot1.png",
+                "alt": "Главная страница."
+            },
+            {
+                "type": "image",
+                "src": "neuronetScreenshot2.png",
+                "alt": "Продукты Neuronet."
             }
         ]
     },
@@ -53,6 +83,21 @@
                 "type": "iframe",
                 "src": "https://vkvideo.ru/video_ext.php?oid=-226922990&id=456239017&hd=2&autoplay=0",
                 "title": "Обзор ChatGPT"
+            },
+            {
+                "type": "image",
+                "src": "chatGPTscreenshot1.jpg",
+                "alt": "Функции ChatGPT."
+            },
+                        {
+                "type": "image",
+                "src": "chatGPTscreenshot2.png",
+                "alt": "Пример диалога с ChatGPT."
+            },
+                        {
+                "type": "image",
+                "src": "chatGPTscreenshot3.png",
+                "alt": "Функции ChatGPT."
             }
         ]
     },
@@ -66,6 +111,11 @@
                 "type": "iframe",
                 "src": "https://vkvideo.ru/video_ext.php?oid=-207391732&id=456239078&hd=2&autoplay=0",
                 "title": "Обзор Claude 3.5"
+            },
+            {
+                "type": "image",
+                "src": "claude3screenshot1.png",
+                "alt": "Главная страница."
             }
         ]
     },
@@ -79,6 +129,26 @@
                 "type": "iframe",
                 "src": "https://vkvideo.ru/video_ext.php?oid=-188914228&id=456239291&hd=2&autoplay=0",
                 "title": "Обзор Gemini Ultra"
+            },
+            {
+                "type": "image",
+                "src": "geminiScreenshot1.png",
+                "alt": "Промо интерфейса."
+            },
+            {
+                "type": "image",
+                "src": "geminiScreenshot2.png",
+                "alt": "Промо интерфейса."
+            },
+            {
+                "type": "image",
+                "src": "geminiScreenshot3.png",
+                "alt": "Промо интерфейса."
+            },
+            {
+                "type": "image",
+                "src": "geminiScreenshot4.jpg",
+                "alt": "Эффективность Gemini по сравнению с другими нейросетями."
             }
         ]
     },
@@ -92,6 +162,11 @@
                 "type": "iframe",
                 "src": "https://vkvideo.ru/video_ext.php?oid=-48265019&id=456242740&hd=2&autoplay=0",
                 "alt": "Обзор Mistral"
+            },
+            {
+                "type": "image",
+                "src": "mistralScreenshot1.jpg",
+                "alt": "Эффективность Mistral по сравнению с другими нейросетями."
             }
         ]
     },
@@ -118,6 +193,21 @@
                 "type": "iframe",
                 "src": "https://vkvideo.ru/video_ext.php?oid=26308175&id=456239878&hd=2&autoplay=0",
                 "title": "Обзор DALL-E 3"
+            },
+            {
+                "type": "image",
+                "src": "dalleScreenshot1.png",
+                "alt": "Сравнение примеров работ нейросетей."
+            },
+            {
+                "type": "image",
+                "src": "dalleScreenshot2.jpeg",
+                "alt": "Сравнение примеров работ нейросетей."
+            },
+            {
+                "type": "image",
+                "src": "dalleScreenshot3.png",
+                "alt": "Главная страница."
             }
         ]
     },
@@ -131,6 +221,26 @@
                 "type": "iframe",
                 "src": "https://vkvideo.ru/video_ext.php?oid=-214454387&id=456239825&hd=2&autoplay=0",
                 "title": "Обзор и начало работы с Midjourney"
+            },
+            {
+                "type": "image",
+                "src": "midjourneyScreenshot1.jpg",
+                "alt": "Примеры работы нейросети. Сгенерированные изображения."
+            },
+            {
+                "type": "image",
+                "src": "midjourneyScreenshot2.jpg",
+                "alt": "Подборка сгенерированных изображений на странице Midjourney."
+            },
+            {
+                "type": "image",
+                "src": "midjourneyScreenshot3.png",
+                "alt": "Подборка сгенерированных изображений на странице Midjourney."
+            },
+            {
+                "type": "image",
+                "src": "midjourneyScreenshot4.png",
+                "alt": "Сравнение версий нейросети по примерам работ."
             }
         ]
     },
@@ -144,6 +254,21 @@
                 "type": "iframe",
                 "src": "https://vkvideo.ru/video_ext.php?oid=-211194784&id=456239088&hd=2&autoplay=0",
                 "title": "Обзор нейросети Stable Diffusion 3.5"
+            },
+            {
+                "type": "image",
+                "src": "SDscreenshot1.png",
+                "alt": "Сравнение примеров работ нейросетей."
+            },
+            {
+                "type": "image",
+                "src": "SDscreenshot2.png",
+                "alt": "Экран настройки промпта."
+            },
+            {
+                "type": "image",
+                "src": "SDscreenshot3.png",
+                "alt": "Архитектура нейросети."
             }
         ]
     },

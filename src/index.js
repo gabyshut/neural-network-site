@@ -29,13 +29,20 @@ function createCard(template, articleInfo) {
       "href",
       `article.html?name=${encodeURIComponent(articleInfo.name)}`
     );
+      const imgEl = cardTemplate.querySelector(".articles__image");
+  if (articleInfo.image) {
+    imgEl.src = `media/${articleInfo.image}`;
+    imgEl.alt = articleInfo.name;
+  } else {
+    imgEl.remove(); // если картинки нет — удалим <img>, чтобы не было пустой рамки
+  }
   return cardTemplate;
 }
 
 const cardElementTemplate = document.querySelector(".card-template");
 
 async function renderArticles() {
-  const articles = await getData("/data/articles.json");
+  const articles = await getData("./data/articles.json");
   const listContainer = document.querySelector(".articles__list");
   const menuContainer = document.querySelector(".header__menu");
 
@@ -55,7 +62,7 @@ async function renderArticles() {
 
 renderArticles();
 
-getData("/data/glossary.json")
+getData("./data/glossary.json")
   .then((terms) => {
     const template = document.querySelector(".term-template");
     const glossaryList = document.querySelector(".glossary__terms-list");

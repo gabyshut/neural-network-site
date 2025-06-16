@@ -26,7 +26,7 @@ async function loadArticle() {
     return;
   }
 
-  const res = await fetch('/data/articles.json');
+  const res = await fetch('./data/articles.json');
   const articles = await res.json();
 
   const article = articles.find((a) => a.name === nameParam);
