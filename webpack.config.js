@@ -62,6 +62,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: 'index.html',
+      favicon: './src/images/favicon.png',
       chunks: ['main'],
     }),
     new CleanWebpackPlugin(),
@@ -69,7 +70,8 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         { from: 'data', to: 'data' },
-        { from: 'media', to: 'media' }
+        { from: 'media', to: 'media' },
+        {from: 'src/images/favicon.png', to: ''}
       ]
     }),
     new HtmlWebpackPlugin({
