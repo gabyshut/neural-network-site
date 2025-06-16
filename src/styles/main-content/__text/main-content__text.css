@@ -1,0 +1,23 @@
+  .main-content__text {
+    font-size: clamp(1rem, 0.9286rem + 0.3571vw, 1.25rem);
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .main-content__text::after {
+    background-color: #3b3b66;
+    border-radius: 10px;
+    content: "";
+    display: block;
+    height: 8px;
+    margin: 69px auto 0;
+    width: 355px;
+  }
+
+@media (max-width: 355px){
+  .main-content__text::after{
+    width: 100%;
+    border-radius: 0;
+  }
+}

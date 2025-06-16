@@ -28,6 +28,7 @@
 @import url('./header/__menu/_active/header__menu_active.css');
 @import url('./close-button/close-button.css');
 @import url('./menu-open/menu-open.css');
+@import url('../styles/main-content/__text/main-content__text.css');
 
 
 :root {
